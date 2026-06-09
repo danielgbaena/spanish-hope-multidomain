@@ -1,4 +1,4 @@
-# Annotation guidelines
+# Annotation Guidelines
 
 The SpanishHopeMultidomain dataset consist of 2,000 tweets annotated as hs (hope speech) or nhs (non-hope speech). A text was considered hs or nhs if it matched the requirements from the annotation guidelines listed below.
 
@@ -8,15 +8,15 @@ The SpanishHopeMultidomain dataset consist of 2,000 tweets annotated as hs (hope
 - [Categories](https://github.com/danielgbaena/spanish-hope-multidomain#categories).
 - [Topics](https://github.com/danielgbaena/spanish-hope-multidomain#topics).
 
-## Annotation instructions
+## Annotation Instructions
 
-### General instructions
+### General Instructions
 
 Each text corresponds to one tweet and every tweet would be tagged only if it makes complete sense by itself and, therefore, if it is not necessary to read any additional tweets from the comments, retweets or review the rest of tweets in the thread, in case our tweet could be part of a Twitter thread of tweets.
 Nevertheless, if in order to understand a tweet it is necessary to know some popular news, such as the murder of Samuel Luiz in La Coruña (Spain) or the well-known Spanish “ley trans” draft law presentation, to name a few examples, we will consider our tweet to be comprehensive by itself and then we will proceed to tag it within a category other than None.
 Finally, in all cases we will only tag each tweet in a single category.
 
-### Working with the spreadsheet
+### Working with the Spreadsheet
 
 The `text` column will show the content of each tweet, the `category` column will be filled in with the category that the annotator will associate with the tweet and the `topic` column will be associated with the theme of the text. Thus, all tweets will be tagged using the categories described in the next section.
 
@@ -29,7 +29,7 @@ All possible categories are listed below:
 
 For each category, a definition is provided reflecting when a tweet should be considered as belonging to it. In addition, several examples are shown to make them more understandable and the choice of tags for all examples is explained.
 
-### Hope speech
+### Hope Speech
 
 A text was annotated as hs (hope speech) if:
 1. It explicitly supports the social integration of minorities.
@@ -70,7 +70,7 @@ It unconditionally promotes tolerance.
 
 > Sí, todo mi apoyo. Pero sí, debe de haber equilibrios. Yo, como persona🏳️‍🌈 GAY, debo tener los mismos derechos que los heteros. El equilibrio es democrático. No caigamos en clasismos, favoritismos y prejuicios. Son derechos fundamentales. El INE, no puede, ni debe disponer derecho
 
-### Not hope speech
+### Not Hope Speech
 
 On the other hand, a text will be annotated as nhs (not hope speech) if:
 1. It does does not express any positive sentiment.
@@ -111,15 +111,15 @@ All possible topics are listed below:
 
 For each topic, a definition is provided reflecting when some text should be considered as being part of it. In addition, several examples are shown to make them more understandable and the choice of tags for all examples is explained.
 
-### LGBT example
+### LGBT Example
 
 > He leído a gente diciendo que a las lesbianas le pueden gustar los hombres porque hay mujeres trans?? Si eres una mujer trans eres una MUJER, no eres ni un hombre ni una mujer a medias ni leches. . Y lo mismo, si a un chico trans le gusta una mujer es hetero, porque es UN CHICO.
 
-### Obesity example
+### Obesity Example
 
 > Eee? Gorda?? Vos? Vos estás hermosa, ayer, hoy y siempre. No le hagas caso a esos porque se ve que necesitan más aumento o no sé, capaz que los lentes son de la feria
 
-### Racism example
+### Racism Example
 
 > Un inmigrante en paro devuelve 400 euros que se encontró en una caja olvidada entre dos coches de la calle Pérez Galdós de Logroño
 
