@@ -122,3 +122,9 @@ For each topic, a definition is provided reflecting when some text should be con
 ### Racism example
 
 > Un inmigrante en paro devuelve 400 euros que se encontró en una caja olvidada entre dos coches de la calle Pérez Galdós de Logroño
+
+## Benchmark and Reproducibility Repository
+
+Experimental scripts, evaluation pipelines, statistical analyses, and reproducibility materials are available at:
+
+https://github.com/danielgbaena/spanish-hope-multidomain-benchmark
